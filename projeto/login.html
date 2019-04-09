@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>	
+<head>
+	<meta charset="utf-8">
+	
+	<title>SKATE</title>
+
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+
+</head>
+<body>
+	<ul>
+		<li><a href="index.html">HOME</a></li>
+		<li><a href="login.html">LOGIN</a></li>
+		<li><a href="cadastro.html">CADASTRO</a></li>
+		<li><a href="produtos.html">PRODUTOS</a></li>		
+	</ul>
+
+	<div class="login">	
+		<form enctype= "multipart/form-data" method="GET" action="formlogin.php">
+			<h1>Login</h1>	
+				<div class="center">
+					<table>
+						<tr>
+							<td>Usuario: </td>
+							<td> <input type="text" name="login"/></td>
+						</tr>
+						<tr>
+							<td>Senha: </td>
+							<td> <input type="password" name="senha"/></td>
+						</tr>
+						<tr>
+							<td>&nbsp </td>
+							<td> <input type="submit" value="Enviar"/> <input type="button" value="Cadastrar" onclick="funcao()"/></td>
+							
+						</tr>
+					</table>
+				</div>		
+		</form>
+		</div>
+	<script>
+		function funcao(){
+			window.location.replace('cadastro.html');
+		}
+	
+	</script>
+	<footer>
+		Copyright 2019 &copy Todos os direitos Reservados
+	</footer>
+</body>
+</html>

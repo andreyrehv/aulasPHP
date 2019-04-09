@@ -1,0 +1,107 @@
+body{
+	background-color: #111;
+}
+#firstimg{
+	width: 100%;
+	height: 400px;
+}
+
+.content{
+	padding: 20px;
+	background-color: #111;
+	background-size: 500px;
+}
+h1{
+	color: white;
+}
+h2{
+	color: white;
+	text-align: center;
+}
+p{
+	color: white;
+	
+}
+
+a{
+	color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  float: rigth;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: #111;
+}
+h1{
+	text-align: center;
+}
+#desc{
+	width: 250px;
+	height; 250px;
+}
+
+footer{
+	position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #111;
+   color: white;
+   text-align: center;
+}
+/* PRODUTOS */
+.column {	
+  float: left;
+  width: 31%;
+  padding: 5px;
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* CADASTRO */
+.form{	
+	position: absolute;
+	top: 80px;
+	left:300px;
+	width: 650px;
+	height: 380px;
+	border: 3px solid #dddddd;
+	
+}
+
+/* Login */
+.login{	
+	position:absolute;
+	border: 3px solid #dddddd; 		
+	width:300px;
+	height:200px;
+	left:450px;
+	top:80px;
+	
+	
+}
